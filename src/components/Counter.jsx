@@ -7,6 +7,7 @@ const Counter = () => {
     const setToZero = () => setCounter(0)
 
   return (
+    <>
     <div>
     <div>{counter}</div>
     <button onClick={increaseByOne}>
@@ -16,6 +17,7 @@ const Counter = () => {
     Reset
     </button>
   </div>
+  </>
   )
 }
 
