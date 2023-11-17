@@ -1,15 +1,21 @@
 import './App.css'
-import Header from './components/Header.jsx'
-import Total from './components/Total.jsx'
-import Content from './components/Content.jsx'
+import Counter from './components/Counter'
+import Info1 from './components/Info1'
+import Info2 from './components/Info2'
+import Info3 from './components/Info3'
+import Nombre from './components/Nombre'
+
 
 const App = () => {
   
+  
   return (
     <>
-    <Header />
-    <Content />
-    <Total />      
+    <Nombre/>
+    <Info1/>
+    <Info2/>
+    <Info3/>
+    <Counter/>
     </>
   )
 }
